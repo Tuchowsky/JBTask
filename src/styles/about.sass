@@ -1,0 +1,63 @@
+#about
+    background-color: $dark-container-color
+
+#about > .row
+    display: flex
+    flex-direction: column
+    position: relative
+
+.about-tournament
+    z-index: 1
+    margin-top: 100px
+    background-color: $light-container-color
+    padding: 50px
+    box-sizing: border-box       
+
+.about-tournament p
+    margin-top: 20px
+
+.about-photo
+    height: 460px
+    width: 700px
+    background-image: url("../assets/images/pp-foosball-match.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    position: absolute
+    z-index: 0
+    right: 0
+    top: 175px
+
+.about-stats
+    padding: 35px
+    background-color: $home-button-color
+    color: $light-font-color
+    margin-left: 65px
+    z-index: 1
+
+
+.about-stats > h5 
+    color: $light-font-color
+    text-align: center
+
+.stats 
+    display: flex
+    justify-content: space-between
+    margin: 0
+
+.stats-item
+    display: inline-block
+    text-align: center
+
+.stats-item > h2
+    margin-top: 20px
+    margin-bottom: 0
+    font-family: 'Millunium-Bold', sans-serif
+
+.stats-item > p
+    width: 100px
+    font-weight: bold
+    margin: 0
+
+#about #button
+    margin-top: 25px
+

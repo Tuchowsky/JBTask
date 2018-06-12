@@ -1,0 +1,340 @@
+    
+
+@media only screen and (max-width: 991px) 
+    h1 
+        font-size: 38px
+        line-height: 38px
+
+    h2 
+        font-size: 32px
+        line-height: 38px
+
+    h3 
+        font-size: 24px
+        line-height: 28px
+
+    h4 
+        font-size: 15px
+        line-height: 20px
+
+    h5 
+        font-size: 15px
+        line-height: 16px
+
+    p 
+        font-size: 14px
+        line-height: 22px
+
+    button
+        font-size: 15px
+        line-height: 18px
+
+    a
+        color: $light-font-color
+
+    header 
+        transition: all 1s 
+
+    header .row
+        height: 100%
+
+    .header-container
+        display: flex
+        height: 100%
+        position: relative
+
+    .nav
+        display: none
+
+    .logo
+        display: flex
+        align-self: center
+        margin-left: 25px
+
+    .icon
+        transition: all 0.5s
+        z-index: 2
+        position: absolute
+        right: 40px
+        top: 35%
+        height: 21px
+        width: 25px
+
+    .hamburger
+        display: flex
+
+    .hamburger img 
+        width: 100%
+        height: 100%
+    
+    .close-btn img 
+        width: 100%
+        height: 100%
+
+    #home p
+        width: 100%
+
+    .menu-open
+        transition: all 1s
+        background-color: $footer-color
+        z-index: 2
+        display: block
+        right: 0
+        top: 0
+        position: absolute
+        height: 100vh
+        width: 475px
+
+    .menu-item
+        margin-left: 45px
+        justify-content: flex-start
+        text-transform: none
+        padding: 15px 0
+        position: relative
+
+    .menu-item:after
+        content: ''
+        width: 0px
+        height: 3px
+        background-color: $home-button-color
+        position: absolute
+        top: 50%
+        left: -65px
+
+    .menu-item:hover:after
+        width: 42px
+
+    .menu-item-link
+        font-size: 22px
+        font-weight: 200
+
+    .menu
+        align-items: flex-start
+        padding-top: 60px
+        display: flex
+        flex-direction: column
+        
+    header .menu > .menu-item
+        padding-right: 0px
+
+
+    .header-scroll
+        transition: all 1s
+        position: fixed
+        height: 55px
+        z-index: 5
+        top: 0
+        left: 0
+        background-color: $footer-color
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75)
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75)ą
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75)
+    
+@media only screen and (min-width: 992px)
+    h1 
+        font-size: 64px
+        line-height: 64px
+
+    h2 
+        font-size: 48px
+        line-height: 56px
+
+    h3 
+        font-size: 32px
+        line-height: 38px
+
+    h4 
+        font-size: 18px
+        line-height: 20px
+
+    h5 
+        font-size: 16px
+        line-height: 18px
+
+    p 
+        font-size: 15px
+        line-height: 24px
+
+    button
+        font-size: 16px
+        line-height: 19px
+
+    .nav
+        display: flex 
+
+    .hamburger
+        display: none
+
+    .close-btn
+        display: none
+    
+
+@media only screen and (max-width: 1199px) 
+    .about-tournament
+        z-index: 2
+        margin-left: 15px
+
+    .about-photo
+        position: static
+        z-index: 0
+        margin-left: 50px
+
+    .about-stats
+        position: absolute
+        top: 225px
+        right: 15px
+        margin: 0
+        padding-left: 60px
+        z-index: 1
+    
+    .stats
+        flex-direction: column
+    
+    .stats-item p 
+        margin: 0 auto
+
+    .stats-item h2 
+        margin-top: 0px
+
+    #howjoin 
+        height: auto
+
+    #contact 
+        margin-top: 190px
+
+    .howjoin-container
+        margin-top: 70px
+        margin-left: 0px
+        margin-right: 0px
+
+    .howjoin-quote
+        margin-top: 340px
+        padding: 100px 35px 35px 85px
+
+    .howjoin-quote > h2 
+        top: 115px
+        left: 35px
+        font-size: 100px
+
+    #contact
+        height: auto
+
+    .contact-photo
+        width: auto 
+        margin-top: 22%
+
+    .contact-form h5 
+        margin-top: 60px
+
+    .contact-form button 
+        margin-bottom: 70px
+
+@media only screen and (max-width: 766px) 
+    #home button
+        width: 240px
+
+    .howjoin-quote
+        margin-top: 320px
+
+@media only screen and (max-width: 767px)
+    header 
+        height: 55px
+
+    header img 
+        height: 33px
+
+    .menu-open
+        width: 300px
+
+    .scroll-down
+        align-self: flex-end
+
+    #about
+        padding-left: 0
+        padding-right: 0
+    
+    #about > .row
+        width: 100%
+
+    .about-tournament
+        z-index: 2
+        margin-left: 0px
+        margin-right: 0px
+        padding: 50px 20px 50px 20px
+        margin: 0 auto
+        margin-top: 40px
+
+    .about-stats
+        padding-left: 35px
+        position: static
+        margin: 0
+
+    .stats-item h2 
+        margin-top: 10px
+
+    .about-photo
+        width: 100%
+        position: static
+        margin: 0
+        margin-top: -35px
+
+    #howjoin
+        padding-left: 0
+        padding-right: 0
+        height: auto
+        align-items: flex-start
+    
+    #howjoin > .row
+        width: 100%
+        justify-content: center
+    
+
+    .howjoin-container
+        padding: 50px 20px 50px 20px
+        margin-top: 40px
+
+    .howjoin-quote
+        position: relative
+        margin-top: -40px
+        padding: 100px 20px 35px 20px
+
+    .howjoin-quote > h2 
+        display: none
+
+    #contact
+        margin-top: 0px
+        align-items: flex-start
+
+    .contact-photo
+        margin-top: 0
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+    #home 
+        align-items: flex-start
+
+    .home-container
+        margin-top: 50px
+
+    #home p
+        padding-top: 20px
+        padding-bottom: 15px
+
+    .scroll-down
+        margin-top: 25px
+
+    .menu-item
+        padding: 10px 0
+
+
+    
+
+@media only screen and (max-width: 575px) 
+    #button 
+        width: 100%
+
+    #home p
+        padding-top: 20px
+        padding-bottom: 15px
+
+
+//@media only screen and (min-width: 1200px) 

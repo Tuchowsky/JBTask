@@ -1,0 +1,138 @@
+
+
+$dark-container-color: #f5f5f5
+$light-container-color: #fff
+
+$home-button-color: #3fae49
+
+$light-font-color: #fff
+$dark-font-color: #777777
+
+$form-color: #cccccc
+$footer-color: #1e3066
+
+$desktop-container-width: 1230px
+
+*
+    margin: 0
+    padding: 0 
+
+@font-face
+    font-family: 'Millunium-Bold'
+    src: url("../assets/fonts/Millunium Bold/Millunium-Bold.ttf")  format("truetype")
+    font-weight: bold
+
+@font-face
+    font-family: 'Millunium-Medium'
+    src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf")  format("truetype")
+    font-weight: medium
+
+@font-face
+    font-family: 'Raleway'
+    src: url("../assets/fonts/Raleway/Raleway-Light.ttf")  format("truetype")
+    font-weight: light
+
+@font-face
+    font-family: 'Raleway'
+    src: url("../assets/fonts/Raleway/Raleway-Regular.ttf")  format("truetype")
+    font-weight: regular
+
+@font-face
+    font-family: 'Raleway'
+    src: url("../assets/fonts/Raleway/Raleway-Bold.ttf")  format("truetype")
+    font-weight: bold
+
+p
+    margin: 0
+    padding: 0
+
+a
+    color: $light-font-color
+
+a:hover 
+    text-decoration: none
+    color: $light-font-color
+
+
+body
+    font-family: 'Raleway', sans-serif
+    background-color: $dark-container-color
+
+html, body
+    height: 100%
+
+header
+    position: absolute
+    top: 0
+    right: 0
+    height: 80px
+
+h2
+    font-family: 'Millunium-Bold', sans-serif
+    margin: 0
+
+h3
+    font-family: 'Millunium-Bold', sans-serif
+    margin: 0   
+
+h5
+    font-weight: bold
+    letter-spacing: 2px
+    color: $dark-font-color
+    margin-bottom: 10px
+
+button
+    cursor: pointer
+    transition: all 1500ms cubic-bezier(0.19, 1, 0.22, 1)
+    outline: 1px solid
+    outline-color: $home-button-color
+    outline-offset: -5px
+ 
+button:hover
+    border: 1px solid
+    outline-color: rgba(255, 255, 255, 0)
+    outline-offset: 15px
+    text-shadow: 1px 1px 2px #427388
+
+button:focus 
+    outline: none
+
+//help classes
+.scale-down
+    transform: scale(0)
+
+.scale-up
+    transform: scale(1)
+
+.hidden
+    display: none
+
+.center
+    display: flex
+    align-items: center
+    justify-content: center
+
+.horizontal-center
+    display: flex
+    justify-content: center
+
+.vertical-center
+    display: flex
+    align-items: center
+
+.main-width
+    width: $desktop-container-width
+
+
+@import "src/styles/welcome.sass"
+@import "src/styles/header.sass"
+@import "src/styles/home.sass"
+@import "src/styles/about.sass"
+@import "src/styles/reward.sass"
+@import "src/styles/howjoin.sass"
+@import "src/styles/contact.sass"
+@import "src/styles/footer.sass"
+
+
+@import "src/styles/media-queries.sass"
+
